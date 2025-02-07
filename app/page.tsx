@@ -12,7 +12,7 @@ export default function SyntheticV0PageForDeployment() {
       <VeltComments textMode={true} commentPinHighlighter={false} allowedElementClassNames={["commentable"]} />
       <VeltCommentsSidebar pageMode={true} />
       <VeltHuddle />
-      <VeltCursor />
+      {/* <VeltCursor /> */}
       <VeltCustomization /> 
       <VideoEditor />
     </VeltProvider>
